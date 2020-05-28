@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="wdth=device-width, initial-scale=1.0">
+    <script src="js/store-data.js"></script>
+    <script src="js/index.js"></script>
+    <script src="https://kit.fontawesome.com/3a49c40bf1.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="style/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="heading">Starbucks Store locator</div>
+    
+        <div class="zip">
+            <input id="zip-input" type="text" name="zip" placeholder="Enter zip">
+            <i class="fas fa-search" onclick="searchStores()"></i>
+        </div>
+
+        <div class="container">
+            <div class="store-list"> 
+                <div class="location-list">
+                    <div class="store-info-container">
+                        <div class="address">
+                            <span>jaksdfa</span>
+                            <span>kdfda</span>
+                        </div>
+                        <div class="body-contact">
+                            123-589-4125
+                        </div>
+                    </div>
+                    <div class="body-number">
+                        <div class="store-number">
+                            1
+                        </div>
+                    </div>                
+                </div>
+                
+            </div>
+        </div>
+    
+        <div class="zip-code-container">
+        
+            <ul>
+                <li><center><b><u>Zip Code</u></b></center></li>
+                <li>90211</li>
+                <li>90036</li>
+                <li>90048</li>
+                <li>90035</li>
+                <li>90046</li>
+                <li>90069</li>
+                <li>90212</li>
+                <li>90019</li>
+                <li>90210</li>
+                <li>90019</li>
+                <li>90038</li>
+                <li>90067</li>
+                <li>90028</li>
+                <li>90004</li>
+                <li>90016</li>
+                <li>90034</li>
+                <li>90068</li>
+            </ul>
+        
+        </div>
+   
+<div id="map"></div>
+
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBwOynHVIIf8K_fDdnuD5UyzbWe_7nvD_g&callback=initMap">
+    </script>
+    
+</body>
+</html>

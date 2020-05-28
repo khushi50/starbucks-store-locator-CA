@@ -1,0 +1,173 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#map {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+#heading {
+ position: absolute;
+ z-index: 1;
+ font-size: 60px;
+ top:50px;
+ left:100px;
+ color:#333333;
+ text-transform: uppercase;
+}
+
+.zip {
+    position: absolute;
+    left :100px;
+    top:200px;
+    z-index: 1;
+    height: 36px;    
+    border-radius: 30px;
+    background-color:#333333;
+    width: 269px;
+    flex-grow: 1;
+    display:flex;
+    align-items: center;
+}
+
+#zip-input {
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size:15px;
+    background-color: transparent;
+    border:none;
+}
+
+i{
+    color:white;
+}
+
+.location-list span{
+    display: block;
+}
+
+input:focus{
+    outline:none;
+}
+
+.container{
+    position: absolute;
+    left :100px;
+    top:250px;
+    bottom: 20px;
+    z-index: 1;    
+    border-radius: 30px;
+    background-color:white;
+    width: 269px;
+    padding: 0px 20px;
+    overflow-y:scroll;
+}
+
+.location-list{
+    padding: 5px 0px;    
+    margin:2px;
+    border-radius: 5px;
+    border-bottom: 1px solid gray;
+    display: flex;
+}
+
+.location-list:hover{
+    background-color: gray;
+}
+
+.store-number{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+}
+
+.store-info-container{
+    flex-grow: 1;
+    margin-left: 10px;
+}
+.body-number{
+    width: 25px;
+    height: 25px;
+    background-color: gray;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.zip-code-container{
+    border: 1px solid black;
+    z-index: 1;
+    position: absolute;
+    right: 0px;
+    top:90px;
+    background-color: gray;
+    color: white;
+    padding: 0px 15px;
+}   
+
+
+ul{
+    list-style-type: none;
+    font-size: smaller;
+}
+
+.address{
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.body-contact{
+    margin-top:15px;
+    margin-bottom: 15px;
+    font-size: smaller;
+}
+
+.window{
+    width: 300px;
+}
+
+.window .name{
+    font-size: larger;
+    font-weight: bold;
+    padding: 5px 0px;
+}
+
+.window .status{
+    color: gray;
+    padding-bottom: 5px;
+    border-bottom: 1px solid gray;
+}
+
+.window .address{
+    padding: 8px 0px;
+    color: gray;
+    margin-top: 0px;
+    font-size: smaller;
+}
+
+.window .contact{
+    padding-bottom: 5px;
+    color: gray;
+    font-size: smaller;
+}
+
+.address i,
+.contact i{
+    background-color: turquoise;
+    padding: 5px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
